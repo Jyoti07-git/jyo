@@ -1,0 +1,49 @@
+*{
+    margin: auto;
+    padding: 5px;
+}
+
+.calender-1{
+    max-width: 650px;
+    border: 10px solid black;
+    background-image: url(cd.jpg);
+    color: aliceblue;
+    margin:auto;
+}
+
+.calender{
+    display: flex;
+    padding: 3px;
+    margin: 6px;
+
+}
+.name{
+    background-color: rgb(197, 145, 108);
+}
+
+
+
+
+ul{
+    list-style-type: none;
+}
+ol{
+    list-style-type: none;
+}
+.calender-2{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    
+}
+.first-day{
+    grid-column-start: 4;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-family: monospace;
+}
+p{
+    background-color: gold;
+    color: black;
+}
